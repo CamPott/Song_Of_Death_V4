@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tpose
+  m_BoneTemplate:
+    Chest: bip Spine1
+    Head: bip Head
+    Hips: bip Pelvis
+    Left Index Intermediate: bip L Finger11
+    Left Index Proximal: bip L Finger1
+    Left Thumb Intermediate: bip L Finger01
+    Left Thumb Proximal: bip L Finger0
+    LeftFoot: bip L Foot
+    LeftHand: bip L Hand
+    LeftLowerArm: bip L Forearm
+    LeftLowerLeg: bip L Calf
+    LeftShoulder: bip L Clavicle
+    LeftToes: bip L Toe0
+    LeftUpperArm: bip L UpperArm
+    LeftUpperLeg: bip L Thigh
+    Neck: bip Neck
+    Right Index Intermediate: bip R Finger11
+    Right Index Proximal: bip R Finger1
+    Right Thumb Intermediate: bip R Finger01
+    Right Thumb Proximal: bip R Finger0
+    RightFoot: bip R Foot
+    RightHand: bip R Hand
+    RightLowerArm: bip R Forearm
+    RightLowerLeg: bip R Calf
+    RightShoulder: bip R Clavicle
+    RightToes: bip R Toe0
+    RightUpperArm: bip R UpperArm
+    RightUpperLeg: bip R Thigh
+    Spine: bip Spine
