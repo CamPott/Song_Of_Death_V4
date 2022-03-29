@@ -8,9 +8,15 @@ public class ImpactSound_Glass : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.relativeVelocity.magnitude > 3)
+        if (collision.relativeVelocity.magnitude < 5)
         {
             _ImpactSound.Play();
+
+        } else if (collision.relativeVelocity.magnitude > 5)
+        {
+            _ImpactSound.Play();
+            Destroy(gameObject);
+            
         }
     }
 }
