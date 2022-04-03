@@ -8,20 +8,26 @@ public class Laptop_Screen : MonoBehaviour
     public GameObject _PlayScreen;
 
     public AudioClip _VoiceClip;
-    AudioSource audioSource;
+    public AudioSource audioSource;
+
+    public bool alreadyPlayed = false;
 
     private void Start()
     {
         _PlayScreen.SetActive(false);
-        audioSource = GetComponent<AudioSource>();
+
+        AudioSource _audio = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player_Hands")
+        if (other.tag == "Player_Hands" && !alreadyPlayed)
         {
             _PlayScreen.SetActive(true);
+
             audioSource.PlayOneShot(_VoiceClip, 0.7f);
+            alreadyPlayed = true;
+
             Debug.Log("Screen Appears & Audio Plays");
         }
     }

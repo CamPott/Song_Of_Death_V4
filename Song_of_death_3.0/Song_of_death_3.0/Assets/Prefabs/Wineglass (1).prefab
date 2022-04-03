@@ -340,3 +340,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ImpactSound: {fileID: 5396147812314022164}
+  _GlassObject: {fileID: 1408566925560076438}

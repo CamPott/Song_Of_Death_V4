@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ImpactSound: {fileID: 2394560078442173024}
+  _GlassObject: {fileID: 689697443959766427}
 --- !u!82 &2394560078442173024
 AudioSource:
   m_ObjectHideFlags: 0
