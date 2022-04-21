@@ -23072,7 +23072,6 @@ Transform:
   - {fileID: 1970684924}
   - {fileID: 1991406840}
   - {fileID: 313312351}
-  - {fileID: 1663886450}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32030,7 +32029,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826687600}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.008615971
@@ -34025,11 +34024,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 590792296}
+    m_TransformParent: {fileID: 1531823667}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalScale.x
@@ -34037,39 +34036,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5761522
+      value: 1.576152
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5761522
+      value: 1.576152
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.136
+      value: -0.017647127
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.919
+      value: 0.10182357
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.36
+      value: 1.5635285
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9335678
+      value: 0.8543489
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.35840085
+      value: 0.5183144
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.024474517
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.028966881
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4900b9db9efda43a56869a8f672fd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -53182,7 +53181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1377532715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58856,6 +58855,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1835646634}
+  - {fileID: 1663886450}
   m_Father: {fileID: 1073851875}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -79664,7 +79664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3d22cc5e705cb8b458e1a24dae989df8, type: 2}
+  - {fileID: 2100000, guid: ab6778bb09272dc48874382879b7aa2a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80777,7 +80777,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132919811}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.008615971
